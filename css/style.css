@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-inner {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    padding: 44px 0 46px 0;
+}
+
+.header-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+
+    border-radius: 2px;
+}
+
+.btn-user {
+    background-color: #1890FF;
+    color: #fff;
+    border: 1px solid #1890FF;
+}
+
+.btn-cart {
+    color: #595959;
+    border: 1px solid #8C8C8C;
+}
+
+.header-content {
+    background-image: url("./../img/header-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #FFE58F;
+    height: 300px;
+}
